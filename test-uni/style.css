@@ -1,9 +1,3 @@
-/*
-THEME NAME: GrayScape
-Author: Sunaina
-Version: 1.0
-*/
-
 /* 3rd party packages */
 
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -467,10 +461,7 @@ template {
 [hidden] {
   display: none;
 }
-/* logo */
-.final-logo {
 
-}
 /* Slider */
 
 .slick-slider
@@ -769,12 +760,12 @@ p, li {
 }
 
 .school-logo-text--alt-color a {
-  color: #fff;
+  color: #666;
 }
 
 .school-logo-text--alt-color a:hover {
-  color: #464646;
-  text-decoration: none;
+  color: #0D3B66;
+  text-decoration: underline;
 }
 
 @-webkit-keyframes spin {
@@ -845,14 +836,14 @@ p, li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-
+  margin: 0 -8px;
 }
 
 .social-icons-list li {
-  -webkit-box-flex: .1;
-      -ms-flex: .1;
-          flex: .1;
-
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 0 8px;
 }
 
 .social-icons-list li a {
@@ -887,12 +878,12 @@ p, li {
 
 .nav-list a {
   font-size: .9rem;
-  color: #fff;
+  color: #999;
   text-decoration: none;
 }
 
 .nav-list a:hover {
-  color: #5e5e5e;
+  color: #0D3B66;
   text-decoration: underline;
 }
 
@@ -1484,21 +1475,30 @@ body.login {
 
 .site-footer {
   padding: 2rem 0 3.5rem 0;
-  background-image: linear-gradient(#FFF, #2f2f2f);
+  background-image: linear-gradient(#FFF, #ECECEC);
+}
+
+.site-footer p {
+  font-size: .9rem;
 }
 
 .site-footer .headline {
-  color: #fff;
+  color: #666;
   margin-bottom: .33rem;
 }
 
-.site-footer__final {
-  font-size: .5rem;
-  color: #a5a5a5;
+.site-footer__link {
+  color: #999;
+  text-decoration: none;
+}
+
+.site-footer__link:hover {
+  color: #0D3B66;
+  text-decoration: underline;
 }
 
 .site-footer__inner {
-  border-top: 1px dotted #fff;
+  border-top: 1px dotted #DEDEDE;
   padding-top: 3.5rem;
 }
 
@@ -1515,24 +1515,30 @@ body.login {
   }
 }
 
-.site-footer__col-two {
+.site-footer__col-two-three-group {
   text-align: center;
-  float: center;
   width: 85%;
   margin: 0 auto;
 }
 
 @media (min-width: 960px) {
 
-  .site-footer__col-two {
+  .site-footer__col-two-three-group {
     text-align: left;
     float: left;
-    font: #fff;
+    width: 42%;
+    margin: 0;
   }
 }
 
 .site-footer__col-two {
+  width: 50%;
+  float: left;
+}
 
+.site-footer__col-three {
+  width: 50%;
+  float: left;
 }
 
 .site-footer__col-four {
@@ -1699,7 +1705,6 @@ body.login {
 }
 
 .hero-slider__slide {
-  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -2128,18 +2133,11 @@ body.admin-bar .search-overlay {
   }
 }
 
-.split-two__overlay {
-  margin: 0 auto;
-  background-color: #cfe1e8;
-  padding: 40px;
-  color: #000;
-}
-
 .full-width-split__two {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  background-color: #fff;
+  background-color: #FAF0CA;
   padding: 1.6rem 16px;
 }
 

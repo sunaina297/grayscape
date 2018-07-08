@@ -7,7 +7,7 @@
     <header class="site-header">
       <div class="container">
         <h1 class="school-logo-text float-left"><a href="<?php echo site_url() ?>">
-        <img class="final-logo" src="<?php echo get_theme_file_uri('/images/final_logo.jpg') ?>" height="50" width="50"></a></h1>
+        <img class="final-logo" src="<?php echo get_theme_file_uri('/images/thumbnail.png') ?>" height="50" width="50"></a></h1>
         <span class="js-search-trigger site-header__search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
         <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
         <div class="site-header__menu group">
